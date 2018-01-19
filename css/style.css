@@ -355,6 +355,12 @@ a.hover-effect {
 	100%	{top: 100%; height: 0%; opacity: 0.2;}
 }
 /*-- Banner-Slider --*/
+.mobonly{
+	display: none;
+}
+.deskonly{
+	display: block;
+}
 .slider {
 	position: relative;
 }
@@ -1505,6 +1511,12 @@ h2.typoh2{
 }
 /*--responsive design --*/
 @media (max-width: 1024px){
+.mobonly{
+	display: block;
+}
+.deskonly{
+	display: none;
+}
 .content{
 	  background-attachment: scroll;
 }
@@ -1567,7 +1579,7 @@ a.hover-effect {
     font-size: 1.4em;
 }
 .content-item {
-    width: 704px;
+    width: 100%;
     height: 415px;
     margin-bottom: 2em;
 }
@@ -1878,7 +1890,7 @@ h1.title, h2.title, h3.title {
     padding-top: 16px;
 }
 .content-item {
-    width: 352px;
+    width: 100%;
     height: 266px;
 }
 .about-left h3 {
