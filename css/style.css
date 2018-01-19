@@ -2084,3 +2084,11 @@ input[type="text"] {
     font-size: 11px;
 }
 }
+/*--Idiog Additions --*/
+.logo{
+	width: 120px;
+}
+.navbar-brand{
+	padding: 5px;
+	height: 60px;
+}
