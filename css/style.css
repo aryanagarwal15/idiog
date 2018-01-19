@@ -502,7 +502,7 @@ ul.callbacks_tabs.callbacks1_tabs {
 /*-- counting --*/
 .counting {
     background: url(../images/slide-1.jpg) no-repeat 0px 0px;
-    height: 410px;
+    /*height: 410px;*/
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
@@ -510,7 +510,7 @@ ul.callbacks_tabs.callbacks1_tabs {
     -moz-background-size: cover;
     -o-background-size: cover;
     -ms-background-size: cover;
-   /* min-height: 410px;*/
+    min-height: 410px;
     padding: 7em 0;
 }
 .counting-grid{
@@ -1505,6 +1505,9 @@ h2.typoh2{
 }
 /*--responsive design --*/
 @media (max-width: 1024px){
+.content{
+	  background-attachment: scroll;
+}
 .slider .caption {
     padding-top: 290px;
 }
