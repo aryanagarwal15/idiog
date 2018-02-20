@@ -595,7 +595,7 @@ ul.callbacks_tabs.callbacks1_tabs {
     padding-right: 0;
 }
 .content-item {
-    background: url(../images/3.jpg) no-repeat 0px 0px;
+    background: url(../images/idiog.png) no-repeat 0px 0px;
     -moz-backface-visibility: hidden;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
@@ -2104,7 +2104,8 @@ input[type="text"] {
 }
 .navbar-brand{
 	padding: 5px;
-	height: 60px;
+	height: 70px;
+	margin-left: 40px;
 }
 /* Slider */
 
@@ -2221,4 +2222,11 @@ input[type="text"] {
 }
 .slick-arrow.slick-hidden {
     display: none;
+}
+.nav li{
+	text-align: center;
+	width: 150px;
+}
+.navbar-inverse{
+	background-color: rgba(130, 130, 130, 0.5);
 }
