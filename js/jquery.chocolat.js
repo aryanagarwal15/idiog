@@ -190,7 +190,7 @@
 				'height'     : hauteur_image,
 				'width'      : largeur_image,
 				'marginLeft' : -largeur_image/2,
-				'marginTop'  : -(hauteur_image)/2
+				'marginTop'  : -(hauteur_image)/2*200/150
 			},settings.fadeInImageduration, 'swing', function(){
 				$('#Choco_bigImage').fadeTo(settings.fadeInImageduration, 1).height(hauteur_image).width(largeur_image);
 				if(!resize)

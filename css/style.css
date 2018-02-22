@@ -710,7 +710,7 @@ ul.callbacks_tabs.callbacks1_tabs {
 	font-size: 1.5em;
 }
 .about-left p {
-    color: #999;
+    color: #000;
     line-height: 1.8em;
     margin: 1em 0;
 }
@@ -729,7 +729,7 @@ ul.callbacks_tabs.callbacks1_tabs {
 .footer h4 {
     font-size: 2em;
     color: #fff;
-    margin-bottom: 1.5em;
+    margin-bottom:18px;
 }
 .footer-row {
     padding-bottom: 1.5em;
@@ -823,7 +823,7 @@ ul.callbacks_tabs.callbacks1_tabs {
     color: #8F8F8F;
 }
 .banner {
-    background: url(../images/idiog2.jpg)no-repeat 0px 0px;
+    background: url(../images/idiog3.jpg)no-repeat 0px 0px;
     -webkit-background-size: cover;
     background-size: cover;
     -moz-background-size: cover;
@@ -892,7 +892,7 @@ ul.callbacks_tabs.callbacks1_tabs {
     line-height: 1.9em;
     margin-bottom: 1em;
     font-weight: 400;
-    color: #999;
+    color: #000;
 }
 /*-- testimonials --*/
 .testimonials {
@@ -2229,4 +2229,13 @@ input[type="text"] {
 }
 .navbar-inverse{
 	background-color: rgba(130, 130, 130, 0.5);
+}
+.mid{
+	text-align: center;
+}
+.navbar-inverse .navbar-nav>li>a {
+	color: #fff;
+}
+#Choco_container_description{
+	height: 200px;
 }
