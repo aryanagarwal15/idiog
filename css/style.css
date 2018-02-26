@@ -457,7 +457,7 @@ ul.callbacks_tabs.callbacks1_tabs {
 }
 /*-- //Banner-Slider --*/
 .about,.services, .news {
-	padding: 100px 0;
+	padding: 50px 0;
 }
 .services h1{
 	margin-bottom: 50px;
@@ -1029,7 +1029,7 @@ h1.title,h2.title,h3.title {
 }
 h4.title {
     font-size: 3em;
-    color: #fff200;
+    color: #016773;
     text-align: center;
 }
 /*-- //team --*/
