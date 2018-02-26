@@ -421,6 +421,9 @@ ul.callbacks_tabs.callbacks1_tabs {
 	padding-top: 410px;
 	text-align: center;
 }
+.footer-address{
+	margin-left: 38%
+}
 .slider .caption h3 {
     font-size: 56px;
     color: #FFF;
@@ -1402,6 +1405,9 @@ h2.typoh2{
 .navbar-toggle {
     margin-top: 9px;
     margin-bottom: 4px;
+}
+.footer-address{
+	margin-left: 0;
 }
 }
 @media (max-width:640px){
