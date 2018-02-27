@@ -790,6 +790,9 @@ ul.callbacks_tabs.callbacks1_tabs {
 .social ul li a.in{
     background: url(../images/social.png) no-repeat -102px 0px ;
 }
+.social ul li a.yt{
+    background: url(../images/social.png) no-repeat -202px 0px ;
+}
 .social ul li a.facebook:hover{
 	opacity:.5;
 }
