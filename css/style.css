@@ -422,7 +422,7 @@ ul.callbacks_tabs.callbacks1_tabs {
 	text-align: center;
 }
 .footer-address{
-	margin-left: 38%
+	margin-left: 20%
 }
 .slider .caption h3 {
     font-size: 56px;
@@ -1111,7 +1111,7 @@ h4.title {
 }
 /*-- //special-services --*/
 .services-1 {
-    padding: 100px 0 0;
+    padding: 50px 0 0;
 }
 .services-1-grids {
     margin-top: 4em;
@@ -1227,7 +1227,7 @@ input[type="submit"]:hover {
 }
 .contact h5{
 	padding: 0px 0px 5px 0px;
-    color:#675F5F;
+    color:#000;
     font-size: 14px;
     font-weight: 400;
 	text-align:left;
@@ -1391,6 +1391,9 @@ h2.typoh2{
 	}
 }
 @media (max-width:767px){
+	.dropdown-menu>li>a{
+	color: #fff
+}
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
     background-color: #016773;
 }
